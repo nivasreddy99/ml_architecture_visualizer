@@ -1,0 +1,60 @@
+# Frontend (React) specific ignores
+/frontend/node_modules
+/frontend/build
+/frontend/dist
+/frontend/.pnp
+/frontend/pnpm-debug.log*
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+/frontend/coverage
+/frontend/.env
+/frontend/.env.local
+/frontend/.env.*.local
+
+# Backend (Flask) specific ignores
+/backend/venv/
+backend/env/
+/backend/.venv/
+backend/instance/
+backend/migrations/
+/backend/__pycache__/
+/backend/*.pyc
+/backend/*.pyo
+/backend/*.pyd
+/backend/*.db
+/backend/*.sqlite
+/backend/*.sqlite3
+/backend/*.log
+
+# Python specific ignores
+*.egg-info/
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+.python-version
+htmlcov/
+.coverage
+.tox/
+.nox/
+
+# OS and IDE specific ignores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.sublime-workspace
+*.swp
+*~
+
+# Ignore compiled/packaged artifacts
+*.so
+*.dll
+*.dylib
+*.exe
+
+# Docker-related files if applicable
+.dockerignore
+Dockerfile
+.docker-compose
+*.env.docker
