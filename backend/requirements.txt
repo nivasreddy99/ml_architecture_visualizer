@@ -3,4 +3,4 @@
 
 Flask
 Flask-CORS==3.0.10
-numpy==1.21.0
+numpy
